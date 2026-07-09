@@ -25,6 +25,32 @@ A professional AI-powered Customer Support Chatbot built using Flask and SQLite.
 - CSS3
 - JavaScript
 
+
+## ⚙️ Installation
+
+1. Clone the repository
+
+bash
+git clone <repository-link>
+
+
+2. Install dependencies
+
+bash
+pip install -r requirements.txt
+
+
+3. Run the application
+
+bash
+python app.py
+
+
+4. Open your browser
+
+http://127.0.0.1:5000
+
+
 ## 📌 Future Improvements
 
 - NLP-based chatbot
@@ -36,8 +62,5 @@ A professional AI-powered Customer Support Chatbot built using Flask and SQLite.
 
 ## 👩‍💻 Author
 
-**Shrasti Garg**
+**SHRASTI GARG**
 
-B.Tech CSE Student
-
-Python Developer | Flask | SQL | Web Development
