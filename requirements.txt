@@ -1,0 +1,8 @@
+Flask==3.1.3
+Flask-SQLAlchemy
+Flask-Login
+Werkzeug
+nltk
+numpy
+scikit-learn
+python-dotenv

@@ -1,0 +1,190 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good evening"],
+      "responses": [
+        "Hello! 👋 How can I help you today?",
+        "Hi! Welcome to AI Customer Support."
+      ]
+    },
+    {
+      "tag": "bye",
+      "patterns": ["bye", "goodbye", "see you"],
+      "responses": [
+        "Goodbye! Have a nice day 😊",
+        "See you again!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thx"],
+      "responses": [
+        "You're welcome!",
+        "Happy to help!"
+      ]
+    },
+    {
+      "tag": "python",
+      "patterns": ["what is python", "python", "tell me about python"],
+      "responses": [
+        "Python is a powerful programming language used for AI, web development and automation."
+      ]
+    },
+    {
+      "tag": "flask",
+      "patterns": ["what is flask", "flask"],
+      "responses": [
+        "Flask is a lightweight Python web framework."
+      ]
+    },
+    {
+      "tag": "refund",
+      "patterns": ["refund", "refund status", "money back"],
+      "responses": [
+        "Refunds are processed within 5-7 working days."
+      ]
+    },
+    {
+      "tag": "order",
+      "patterns": ["order", "track order", "where is my order"],
+      "responses": [
+        "Please provide your Order ID."
+      ]
+    },
+    {
+      "tag": "payment",
+      "patterns": ["payment", "payment failed", "upi", "card payment"],
+      "responses": [
+        "Please check your payment details or try again after a few minutes."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "support", "customer care"],
+      "responses": [
+        "You can contact us at support@aichatbot.com"
+      ]
+    }
+      ,
+    {
+      "tag": "shipping",
+      "patterns": ["shipping","delivery","when will my order arrive"],
+      "responses": [
+        "Orders are usually delivered within 3-7 business days."
+      ]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": ["cancel order","cancel my order", "order cancellation"],
+      "responses": [
+        "Please provide your Order ID to request cancellation."
+      ]
+    },
+    {
+      "tag": "exchange",
+      "patterns": ["exchange","replace product", "replacement"],
+      "responses": [
+        "Products can be exchanged within 7 days of delivery."
+      ]
+    },
+    {
+      "tag": "working_hours",
+      "patterns": ["working hours","office timing","timing"],
+      "responses": [
+        "Our customer support is available from 9:00 AM to 6:00 PM, Monday to Saturday."
+      ]
+    },
+    {
+      "tag": "services",
+      "patterns": ["services","what services do you provide","features"],
+      "responses": [
+        "We provide customer support for orders, refunds, payments, deliveries and account-related queries."
+      ]
+    },
+    {
+      "tag": "company",
+      "patterns": ["about company","about", "who are you"],
+      "responses": [
+        "We are an AI-powered Customer Support Chatbot developed using Python and Flask."
+      ]
+    },
+    {
+      "tag": "internship",
+      "patterns": ["internship","training","project"],
+      "responses": [
+        "This chatbot was developed as an internship project using Python, Flask, SQLite, HTML, CSS and JavaScript."
+      ]
+    },
+    {
+      "tag": "farewell",
+      "patterns": ["good night","good afternoon","take care"],
+      "responses": [
+        "Take care! Have a wonderful day. 😊"
+      ]
+    },
+    {
+      "tag": "reset_password",
+      "patterns": ["forgot password","reset password","change password"],
+      "responses": [
+        "You can reset your password from the Login page by selecting 'Forgot Password'."
+      ]
+    },
+    {
+      "tag": "account",
+      "patterns": ["account","my account","profile"],
+      "responses": [
+        "You can manage your account details after logging in."
+      ]
+    },
+    {
+      "tag": "discount",
+      "patterns": ["discount","offers","coupon","promo code"],
+      "responses": [
+        "Current offers and discounts are available on our homepage."
+      ]
+    },
+    {
+      "tag": "return",
+      "patterns": ["return","return policy","return product"],
+      "responses": [
+        "Products can be returned within 7 days if they meet our return policy."
+      ]
+    },
+    {
+      "tag": "delivery_delay",
+      "patterns": ["late delivery","delivery delayed","order delayed"],
+      "responses": [
+        "We're sorry for the delay. Please share your Order ID so we can check the status."
+      ]
+    },
+    {
+      "tag": "greetings",
+      "patterns": ["how are you","how's it going","are you fine"],
+      "responses": [
+        "I'm doing great! 😊 How can I help you today?"
+      ]
+    },
+    {
+      "tag": "creator",
+      "patterns": ["who made you","who created you","developer"],
+      "responses": [
+        "I was developed using Python, Flask, HTML, CSS, JavaScript and SQLite as an internship project."
+      ]
+    },
+    {
+      "tag": "bye2",
+      "patterns": ["see you later","see ya","bye bye"],
+      "responses": [
+        "See you soon! Have a wonderful day. 😊"
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": ["help", "can you help me","i need help","support","assist me"],
+      "responses": [
+        "I'm here to help! You can ask me about orders, refunds, payments, shipping, returns, account issues, Python, Flask, or contact information."
+      ]
+    }
+  ]
+}
